@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a666066320.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>E-Commerce</title>
+  </head>
+  <body>
+    <header>
+      <div class="left-section">
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="/images/logo1-removebg-preview.png"
+              alt="logo"
+              width="80"
+              height="50"
+          /></a>
+        </div>
+        <nav>
+          <a href="#home">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Category
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#men">Men</a>
+              <a href="#women">Women</a>
+              <a href="#all-product">Products</a>
+            </div>
+          </div>
+          <div class="contact-us">
+            <a href="#contact">Contact Us</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="middle-section">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="right-section">
+        <button id="loginBtn">Login</button>
+
+        <div id="loginPopup" class="popup">
+          <div class="popup-content">
+            <span id="closeBtn" class="close-btn">&times;</span>
+            <h2>Login</h2>
+            <form>
+              <label for="uname">Username:</label>
+              <input type="text" id="uname" name="fusionId" />
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="/images/slider/img1.png" alt="Image 1" />
+      </div>
+      <div class="carousel-slide">
+        <img src="/images/slider/img2.png" alt="Image 2" />
+      </div>
+      <div class="carousel-slide">
+        <img src="/images/slider/img3.png" alt="Image 3" />
+      </div>
+    </div>
+
+    <div id="men">
+      <div class="head">
+        <h1 id="men">Men's Wear</h1>
+      </div>
+      <div class="menCard">
+        <div class="card">
+          <a href="./productPage/product.html" style="cursor: pointer"
+            ><img src="/images/Men/men1.webp" alt=""
+          /></a>
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <a href="./productPage/product.html" style="cursor: pointer"
+            ><img src="/images/Men/men1.webp" alt=""
+          /></a>
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <a href="./productPage/product.html" style="cursor: pointer"
+            ><img src="/images/Men/men1.webp" alt=""
+          /></a>
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <a href="./productPage/product.html" style="cursor: pointer"
+            ><img src="/images/Men/men1.webp" alt=""
+          /></a>
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="women">
+      <div class="head">
+        <h1>Women's Wear</h1>
+      </div>
+      <div class="WomenCard">
+        <div class="card">
+          <a href="./productPage/product.html" style="cursor: pointer"
+            ><img src="/images/Women/wom1.webp" alt=""
+          /></a>
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <a href="./productPage/product.html"
+            ><img src="/images/Women/wom2.webp" alt=""
+          /></a>
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <a href="./productPage/product.html"
+            ><img src="/images/Women/wom3.webp" alt=""
+          /></a>
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <img src="/images/main.png" alt="" />
+      <div class="mainText">
+        <h1>Wear With Trends</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla vero
+          sit soluta <br />
+          corporis minima adipisci.consectetur adipisicing elit. Nulla vero,
+        </p>
+        <button>Explore</button>
+      </div>
+    </div>
+
+    <h1 id="all-product">All Products</h1>
+    <div class="container">
+      <div class="row">
+        <div class="card">
+          <img src="/images/Men/men1.webp" alt="User Photo" />
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <img src="/images/Men/men1.webp" alt="User Photo" />
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <img src="/images/Men/men1.webp" alt="User Photo" />
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <img src="/images/Men/men1.webp" alt="User Photo" />
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card">
+          <img src="/images/Men/men1.webp" alt="User Photo" />
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <img src="/images/Men/men1.webp" alt="User Photo" />
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <img src="/images/Men/men1.webp" alt="User Photo" />
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+        <div class="card">
+          <img src="/images/Men/men1.webp" alt="User Photo" />
+          <p>Trends Wear</p>
+          <p>30% OFF</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" id="contact">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <a href="https://fusion-institute.com/"
+            ><img src="/images/logo1-removebg-preview.png" alt="Logo"
+          /></a>
+        </div>
+        <!-- <form action="#" method="post" class="subscription-form">
+          <input type="email" name="email" placeholder="Your email" required />
+          <button type="submit">Submit</button>
+        </form> -->
+      </div>
+
+      <div class="footer-middle">
+        <p class="contact-info">
+          Contact Us <br /><br />
+
+          Email: <a href="mailto:abc@gmail.com">abc@gmail.com</a><br /><br />
+          Phone: 1111111111<br /><br />
+          Address : Pune
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <div class="social-media">
+          <div class="social-item">
+            <a href="#" target="_blank"
+              ><img src="/images/socialmedia/insta logo.png" alt="Instagram" />
+              <span>Instagram</span>
+            </a>
+          </div>
+
+          <div class="social-item">
+            <a href="#" target="_blank"
+              ><img
+                src="/images/socialmedia/facebook logo.png"
+                alt="Facebook"
+              />
+              <span>Facebook</span>
+            </a>
+          </div>
+
+          <div class="social-item">
+            <a href="#" target="_blank"
+              ><img src="/images/socialmedia/twitter logo.png" alt="Twitter" />
+              <span>Twitter</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

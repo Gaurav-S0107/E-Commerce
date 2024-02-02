@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Product Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a666066320.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="product.css" rel="stylesheet" />
+    <script src="product.js"></script>
+  </head>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-5">
+        <div class="main-image">
+          <img id="thumbnail" src="/images/Men/men1.webp" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-7">
+        <div class="section-heading">
+          <h2 class="title">Black Hoodie</h2>
+          <h3>30% OFF onTrends Wear</h3>
+          <h6 class="menuh6">Rs.3200</h6>
+        </div>
+        <div class="section-body"> 
+          <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatum modi, doloremque eveniet nihil eos id cum reiciendis, architecto atque illum aperiam! Quae placeat ullam possimus itaque at impedit asperiores.
+          </p>
+
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i><br />
+          </div>
+          <div class="quantity">
+            <input
+              type="button"
+              id="remove_0"
+              onclick="CalculateTotal(this,0)"
+              value="-"
+              class="inp-pos"
+            />
+            <input
+              type="text"
+              placeholder="1"
+              name="quantity"
+              id="quantity_0"
+              onchange="CalculateTotal(this,0)"
+              class="inp-pos"
+              value="1"
+              readonly
+            />
+            <input
+              type="button"
+              id="add_0"
+              onclick="CalculateTotal(this,0)"
+              value="+"
+              class="inp-pos"
+            />
+            <button
+              type="button"
+              id="add-to-cart"
+              class="btn btn-lg"
+              data-toggle="modal"
+              data-target="#myModal1"
+            >
+              Add To Cart<i class="material-icons cart">shopping_cart</i>
+            </button>
+          </div>
+          <div class="product-info">
+            <h4>Category:</h4>
+            <ul>
+              <li><a href="" class="grey">Hoody</a></li>
+            </ul>
+          </div>
+          <div class="product-info">
+            <h4>Color:</h4>
+            <ul>
+              <li><a href="" class="grey">Black</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
